@@ -241,7 +241,7 @@ void loop(){
   
 
 
-  if(co>=990 && co<1018 && pioggia>=800){       //sole-nuvola         <--- QUI VA MESSO LA PRESSIONE NON PIOGGIA==300 (USATA SOLO PER TESTARE)  co sarebbe la pressione
+  if(co>=990 && co<1018 && pioggia>=800){       //sole-nuvola        
    // tft.fillRect(60,160,200,80,BLACK);
     //drawCloud();
     old=state;
